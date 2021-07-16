@@ -1,7 +1,7 @@
 ### Sequence diagram
 ![Sequence Diagram](sequence-diagram.png)
 
-## End point to search in rooms
+## End point to search in Rides
 - A REST API application to list rides
 
 - GET `http://localhost:8001/api/rides`
