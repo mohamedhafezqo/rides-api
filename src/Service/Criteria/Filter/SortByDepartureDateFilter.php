@@ -6,9 +6,9 @@ use App\Service\Criteria\Contract\FilterInterface;
 use Doctrine\Common\Collections\Criteria;
 
 /**
- * Class SortFilter
+ * Class SortByDepartureDateFilter
  *
- * @package App\Service\CriteriaBuilder\Filter
+ * @package App\Service\Criteria\Filter
  */
 class SortByDepartureDateFilter implements FilterInterface
 {

@@ -6,7 +6,7 @@ use App\Service\Criteria\Contract\FilterInterface;
 use Doctrine\Common\Collections\Criteria;
 
 /**
- * Class MinPriceFilter
+ * Class MinDurationFilter
  *
  * @package App\Service\Criteria\Filter
  */
