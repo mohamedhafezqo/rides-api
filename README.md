@@ -72,4 +72,5 @@
 * [Symfony5](http://www.symfony.com)
     * Serializer
     * Symfony/phpunit-bridge
+    * DataFixture/Seeding
     * Doctrine

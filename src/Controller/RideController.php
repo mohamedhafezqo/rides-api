@@ -19,11 +19,11 @@ class RideController extends AbstractFOSRestController
     /**
      * @Rest\Get("/rides")
      *
-     * @Rest\QueryParam(name="sortByDepartureDate", requirements="ASC|DESC", description="Sort Rides By Duration.")
-     * @Rest\QueryParam(name="maxPrice", requirements="\d+", description="Rides Price Maximum.")
-     * @Rest\QueryParam(name="minPrice", requirements="\d+", description="Rides Price Maximum.")
-     * @Rest\QueryParam(name="maxDuration", requirements="\d+", description="Rides Duration Maximum.")
-     * @Rest\QueryParam(name="minDuration", requirements="\d+", description="Rides Duration Maximum.")
+     * @Rest\QueryParam(name="sortByDepartureDate", requirements="ASC|DESC", description="Sort Rides By DepartureDate.")
+     * @Rest\QueryParam(name="maxPrice", requirements="\d+", description="Maximum Ride Price.")
+     * @Rest\QueryParam(name="minPrice", requirements="\d+", description="Minimum Ride Price.")
+     * @Rest\QueryParam(name="maxDuration", requirements="\d+", description="Maximum Ride Duration.")
+     * @Rest\QueryParam(name="minDuration", requirements="\d+", description="Minimum Ride Duration.")
      *
      * @param Request $request
      * @param RideServiceInterface $roomFacade
