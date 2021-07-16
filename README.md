@@ -5,7 +5,7 @@
 - A REST API application to list rides
 
 - GET `http://localhost:8001/api/rides`
-- Response 
+- Json Response in header `Accept: text/json`
 ```json
 {
   "rides": [
@@ -31,6 +31,24 @@
     }
   ]
 }
+```
+
+- GET `http://localhost:8001/api/rides`
+- For XML Response send header `Accept: text/xml`
+```xml
+<?xml version="1.0"?>
+<response>
+  <rides>
+    <id>52</id>
+    <uuid>6c50a577-cfe9-4b8e-9bd5-d04ad6f649b1</uuid>
+    <duration>6</duration>
+    <source>Lake Orville</source>
+    <destination>Danielview</destination>
+    <price>77.27</price>
+    <departureDate>2021-07-04T00:21:12+00:00</departureDate>
+    <arrivalDate>2021-07-04T00:27:12+00:00</arrivalDate>
+  </rides>
+</response>
 ```
 
 ##### Criteria/Filters Examples:
