@@ -1,6 +1,9 @@
 ### Sequence diagram
 ![Sequence Diagram](sequence-diagram.png)
 
+### Class diagram
+![Class Diagram](class-diagram.png)
+
 ## End point to search in rooms
 - A REST API application to list rides
 
